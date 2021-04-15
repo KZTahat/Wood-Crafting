@@ -1,0 +1,54 @@
+
+var username = prompt('please inter your name');
+
+if (username !== null) {
+  document.write('<h2>' + 'Welcom to my site Mr.' + username + '</h2>');
+}
+console.log(username);
+var choice = prompt('do prefer wood turning or simple crafting (turning,simple)?');
+
+while (choice !== 'turning' && choice !== 'simple') {
+  choice = prompt('Do prefer wood turning or simple crafting (turning,simple)?');
+}
+
+
+if (choice == 'turning') {
+  var image = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFu2MjsAleSubaBZKTOcc28wHMVBPoU39NkA&usqp=CAU" alt="suggested turning project"/>';
+
+  document.write(image);
+} else if (choice == 'simple') {
+  var image = '<img src="Images/simplecraftproject.jpg" alt="suggested crafting project"/>';
+
+  document.write(image);
+}
+
+function myFunction() {
+  confirm("Are you sure?");
+}
+
+
+var hourNow = prompt('What time is it?');
+var greeting;
+if (hourNow > 18) {
+  greeting = 'Good evening';
+}
+else if (hourNow > 12) {
+  greeting = 'Good afternoon';
+}
+else if (hourNow > 0) {
+  greeting = 'Good morning';
+}
+else {
+  greeting = 'Welcome';
+}
+document.write('<h3>' + greeting + '</h3>');
+
+
+var stars = Number(prompt('how many stars do you give this website(1-5)?'));
+while ( 1 <= stars <=5) {
+  for (var i = 1; i <= stars; i++) {
+    var image = '<img src="Images/star.jpg" alt="star"/>';
+    document.write(image);
+  }
+  break;
+}
