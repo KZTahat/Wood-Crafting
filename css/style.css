@@ -1,0 +1,56 @@
+header{
+  text-align: center;
+  background-color: fuchsia;
+  opacity: 1;
+}
+body{
+  background-color: aquamarine;
+  
+}
+h1{
+  color:chartreuse;
+  text-align:center;
+}
+
+a{
+  text-decoration:none;
+  color:rgb(17, 0, 255);
+}
+nav ul li {
+  text-align: center;
+  display: inline-block;
+  border: 2px ridge rgb(4, 0, 255);
+  margin-right: 50px;
+  margin-left: 50px;
+  text-decoration-color: red;
+}
+img{
+  width: 200px;
+  height: 200px;
+  border: 1px solid yellow;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo{
+  width:  50px;
+  height: 50px;
+  display: inline-flex;
+}
+.logo img{
+  margin: auto 5px;
+  float: left;
+  width: 120px;
+  height: 60px;
+}
+
+div {
+  transform: rotate(10deg);
+}
+
+.rightimg{
+  float: right;
+}
+.leftimg{
+  float: left;
+}
