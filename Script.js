@@ -48,14 +48,14 @@
 
 // //////////////////////////////////////////////
 
-// var stars = Number(prompt('how many stars do you give this website(1-5)?'));
-// while ( 1 <= stars <=5) {
-//   for (var i = 1; i <= stars; i++) {
-//     var image = '<img src="Images/star.jpg" alt="star"/>';
-//     document.write(image);
-//   }
-//   break;
-// }
+var stars = Number(prompt('how many stars do you give this website(1-5)?'));
+while (!(1 <= stars && stars <=5)) {
+  stars = Number(prompt('how many stars do you give this website(1-5)?')); 
+  }
+  for (var i = 1; i <= stars; i++) {
+    var image = '<img src="Images/star.jpg" alt="star"/>';
+    document.write(image);
+  }
 
 // //////////////////////////////////////////////
 
@@ -72,4 +72,4 @@
 
 // totalsurfacearea(r);
 
-// ///////////////////////////////////
+/////////////////////////////////////
