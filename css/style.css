@@ -1,19 +1,14 @@
 header{
   text-align: center;
-  background-color: brown;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQOwwSyU6RFdiScgfJ-bLR5XGFl-LdggCz7Q&usqp=CAU");
   opacity: 1;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
 background-attachment: scroll;
 background-clip : border-box;
-background-color : rgb(27, 40, 56);
-background-image : none;
+background-image : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhag0qFM2cdE2_NnEf6hK2DUNi2rMgGYuS4Q&usqp=CAU");
 background-origin : padding-box;
-background-position-x : 0%;
-background-position-y : 0%;
-/* background-repeat-x : ;
-background-repeat-y : ; */
 background-size : auto ;
 }
 h1{
@@ -60,14 +55,12 @@ div {
 .rightimg{
   float: right;
 }
-.leftimg{
-  float: left;
-}
 
 p{
-  color : brown;
+  color : rgb(89, 58, 228);
   margin : 20px;
-  font-family: Helvetica;
+  font-family: Verdana;
+  font-size : 20px;
   opacity: 0.8;
 }
 
