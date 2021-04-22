@@ -1,41 +1,23 @@
-header{
-  text-align: center;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQOwwSyU6RFdiScgfJ-bLR5XGFl-LdggCz7Q&usqp=CAU");
-  opacity: 1;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 body{
 background-attachment: scroll;
 background-clip : border-box;
 background-image : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhag0qFM2cdE2_NnEf6hK2DUNi2rMgGYuS4Q&usqp=CAU");
-background-origin : padding-box;
-background-size : auto ;
 }
+
+header{
+text-align: center;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQOwwSyU6RFdiScgfJ-bLR5XGFl-LdggCz7Q&usqp=CAU");
+opacity: 1;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* The header */
 h1{
   color:chartreuse;
   text-align:center;
 }
 
-a{
-  text-decoration:none;
-  color:gold;
-}
-nav ul li {
-  text-align: center;
-  display: inline-block;
-  border: 2px solid gold;
-  margin-right: 50px;
-  margin-left: 50px;
-  text-decoration-color: red;
-}
-img{
-  width: 200px;
-  height: 200px;
-  border: 1px solid yellow;
-  display: inline-flex;
-  margin : 20px;
-
-}
+/* The logo */
 .logo{
   width:  50px;
   height: 50px;
@@ -48,20 +30,73 @@ img{
   height: 60px;
 }
 
-div {
+/* navigation bar */
+nav ul li {
+  display: inline-block;
+  font-size: 17px;
+  border: 2px solid rgb(255, 215, 0);
+  border-bottom-style: dotted;
+  border-bottom-color: rgb(255, 150, 50);
+  padding: 5px;
+  border-radius: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+/* Links */
+a{
+  text-decoration:none;
+}
+/* unvisited links */
+a:link{
+  color:gold;
+}
+/* visited links */
+a:visited{
+  color: goldenrod;
+}
+/* mouse over links */
+a:hover{
+  color: brown;
+}
+/* selected links */
+a:active{
+  color: aqua;
+}
+
+/* The paragraphes */
+p{
+  color : rgb(89, 58, 228);
+  margin-right : 200px;
+  font-family: Verdana;
+  font-size : 20px;
+  opacity: 0.9;
+}
+
+/* The images */
+img{
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid yellow; */
+  border-radius: 5px;
+  display: inline-flex;
+  margin : 20px;
+}
+
+/* div {
   transform: rotate(10deg);
+} */
+#hovering{
+  display: none;
+  background-color: yellow;
+}
+
+#divhover:hover p {
+  display: block;
 }
 
 .rightimg{
   float: right;
-}
-
-p{
-  color : rgb(89, 58, 228);
-  margin : 20px;
-  font-family: Verdana;
-  font-size : 20px;
-  opacity: 0.8;
 }
 
 #footer{
