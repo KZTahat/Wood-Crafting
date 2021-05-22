@@ -73,3 +73,19 @@
 // totalsurfacearea(r);
 
 // ///////////////////////////////////
+
+let index = 1;
+showSlide(index);
+
+function plusSlides(action) {
+    showSlide(index + action);
+}
+function showSlide(n) {
+    let slides = document.getElementsByClassName('mySlides');
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[n - 1].style.display = "block";
+}
